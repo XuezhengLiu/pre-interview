@@ -4,6 +4,7 @@ import "swiper/css"
 import '../../css/CardSlider.css'
 import Card from './Card'
 import SlideBtn from '../Buttons/SlideBtn'
+import PageBtn from '../Buttons/PageBtn'
 
 function CardSlider () {
   return (
@@ -11,11 +12,8 @@ function CardSlider () {
       <Swiper
         slidesPerView={4}
         centeredSlides={true}
-        spaceBetween={30}
+        spaceBetween={5}
         grabCursor={true}
-        pagination={{
-          clickable: true,
-        }}
         className="mySwiper"
       >
         <SwiperSlide><Card /></SwiperSlide>
@@ -24,6 +22,10 @@ function CardSlider () {
         <SlideBtn direction={'Prev'}></SlideBtn>
         <SlideBtn direction={'next'}></SlideBtn>
       </Swiper>
+
+      <div className='pageBtnContainer'>
+        <PageBtn text={'View All'} />
+      </div>
     </div>
   )
 }

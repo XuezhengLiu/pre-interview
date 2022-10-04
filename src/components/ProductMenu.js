@@ -1,6 +1,5 @@
 import '../css/ProductMenu.css'
 import CardSlider from './Sections/CardSlider'
-import PageBtn from './Buttons/PageBtn'
 import { useState } from 'react'
 
 function ProductMenu () {
@@ -41,9 +40,6 @@ function ProductMenu () {
       </div>
       <div className='menuContainer'>
         {showContent()}
-      </div>
-      <div className='pageBtnContainer'>
-        <PageBtn text={'View All'} />
       </div>
     </div>
   )

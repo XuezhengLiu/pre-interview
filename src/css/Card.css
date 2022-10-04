@@ -40,3 +40,9 @@
   padding-left: 15px;
   padding-right: 15px;
 }
+
+@media only screen and (max-width: 1199px) {
+  .cardContainer {
+    width: 700px;
+  }
+}

@@ -11,21 +11,25 @@ import Shield from '../icons/shield.png'
 function SubBar () {
   return (
     <div className='subBar'>
-      <div>
-        <a href="https://idirectpromo.24livehost.com">
-          <img src={HeadLogo} alt="" />
-        </a>
+      <div className='abWrapper'>
+        <div>
+          <a href="https://idirectpromo.24livehost.com">
+            <img className='titleImg' src={HeadLogo} alt="" />
+          </a>
+        </div>
+        <div className='promotContainer'>
+          <PromtSection icon={Gift} spanAbove={'Over 15000'} spanBelow={'Products Online'}></PromtSection>
+          <PromtSection icon={Calender} spanAbove={'20+ Years'} spanBelow={'in Industry'}></PromtSection>
+          <PromtSection icon={Shield} spanAbove={'Quality + Services'} spanBelow={'Lowest Prices'}></PromtSection>
+        </div>
       </div>
-      <div className='promotContainer'>
-        <PromtSection icon={Gift} spanAbove={'Over 15000'} spanBelow={'Products Online'}></PromtSection>
-        <PromtSection icon={Calender} spanAbove={'20+ Years'} spanBelow={'in Industry'}></PromtSection>
-        <PromtSection icon={Shield} spanAbove={'Quality + Services'} spanBelow={'Lowest Prices'}></PromtSection>
-      </div>
-      <div className='searchContainer'>
-        <SearchBar></SearchBar>
-      </div>
-      <div className='cartContainer'>
-        <Cart></Cart>
+      <div className='beWrapper'>
+        <div className='searchContainer'>
+          <SearchBar></SearchBar>
+        </div>
+        <div className='cartContainer'>
+          <Cart></Cart>
+        </div>
       </div>
     </div>
   )

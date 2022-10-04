@@ -6,7 +6,7 @@
 .pBtnContainer {
   display: flex;
   justify-content: space-around;
-  width: 700px;
+  width: 50%;
 }
 .menuContainer {
   border: 1px rgba(34, 34, 34, 0.287) solid;
@@ -24,7 +24,7 @@
   border: 1px solid #eeeeee;
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
-  height: 100%;
+  height: 50px;
   font-size: 16px;
   font-weight: 700;
   color: #7e7e7e;
@@ -38,7 +38,7 @@
   width: 30%;
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
-  height: 100%;
+  height: 50px;
   font-size: 16px;
   font-weight: 700;
   background-color: #e61b23;
@@ -56,4 +56,22 @@
   margin-right: auto;
   margin-bottom: 20px;
   width: 150px;
+}
+
+@media only screen and (max-width: 1199px) {
+  .productMenu .selected {
+    font-size: 9px;
+  }
+  .productMenu .unselected {
+    font-size: 9px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .productMenu .selected {
+    font-size: 4px;
+  }
+  .productMenu .unselected {
+    font-size: 4px;
+  }
 }

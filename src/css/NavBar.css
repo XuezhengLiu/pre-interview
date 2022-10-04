@@ -1,9 +1,33 @@
 .NavMenu {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 50px;
+  margin-bottom: 10px;
+}
+
+.navWrapper {
+  display: flex;
+  width: 80%;
   justify-content: space-around;
   align-items: center;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 60px;
   padding-right: 60px;
+}
+
+.sideIcon {
+  display: none;
+}
+
+@media only screen and (max-width: 1199px) {
+  .navWrapper {
+    display: none;
+  }
+  .sideIcon {
+    padding-left: 100px;
+    display: block;
+    font-size: 40px;
+  }
 }

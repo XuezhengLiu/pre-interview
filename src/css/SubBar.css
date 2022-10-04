@@ -8,15 +8,55 @@
   padding-right: 80px;
 }
 
+.subBar .titleImg {
+  width: 100%;
+  min-width: 200px;
+}
+
 .subBar .promotContainer {
   display: flex;
 }
 .subBar .searchContainer {
   display: flex;
   justify-content: center;
+  margin-right: 40px;
 }
 
 .subBar .cartContainer {
   display: flex;
   justify-content: center;
+}
+
+.subBar .abWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.subBar .beWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1199px) {
+  .subBar {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .subBar .searchContainer {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .subBar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .subBar .promotContainer {
+    display: none;
+  }
+  .subBar .searchContainer {
+    display: none;
+  }
 }
