@@ -1,0 +1,6 @@
+.cardSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-left: 100px;
+  padding-right: 50px;
+}

@@ -1,0 +1,7 @@
+.textBtn a {
+  text-decoration: none;
+  color: #000;
+}
+.textBtn a:hover {
+  color: red;
+}

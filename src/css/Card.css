@@ -1,0 +1,42 @@
+.cardContainer {
+  width: 300px;
+  border: 1px solid #e3e4ed;
+  border-radius: 4px;
+  padding: 20px 40px 30px 40px;
+}
+
+.cardContainer img {
+  width: 100%;
+}
+
+.cardContainer .productName {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.cardContainer .priceContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.cardContainer .priceContainer .price {
+  color: #ea3a3c;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.cardContainer .priceContainer .code {
+  color: rgba(63, 62, 62, 0.7);
+  font-size: 16px;
+}
+
+.cardContainer .cBtnContainer {
+  padding-left: 15px;
+  padding-right: 15px;
+}

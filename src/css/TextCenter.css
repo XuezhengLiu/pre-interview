@@ -1,0 +1,35 @@
+.textCenter .intro {
+  color: #207bc1;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 300;
+  position: relative;
+  margin-top: 50px;
+  padding-bottom: 15px;
+  margin-bottom: 28px;
+  display: block;
+}
+
+.textCenter .intro:after {
+  background-color: #207bc1;
+  width: 100px;
+  height: 1px;
+  content: '';
+  left: 0px;
+  right: 0px;
+  margin: 0px auto;
+  position: absolute;
+  bottom: 0px;
+}
+
+.textCenter .heading {
+  color: #3f3e3e;
+  font-size: 16px;
+  font-weight: 350;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+}
+
+.textCenter .introBody p {
+  font-size: 18px;
+}

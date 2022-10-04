@@ -1,0 +1,16 @@
+.cartContainer {
+  padding-left: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.cartContainer a {
+  text-decoration: none;
+}
+
+.cartContainer span {
+  padding-left: 10px;
+  font-size: 14px;
+  line-height: 1;
+  color: #000;
+}

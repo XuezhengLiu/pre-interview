@@ -1,0 +1,64 @@
+.tbContainer a {
+  text-decoration: none;
+}
+
+.tbContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f3f4f7;
+  font-size: 14px;
+  color: #207bc1;
+  font-weight: 400;
+  height: 40px;
+  padding-top: 5px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 5px;
+}
+
+.tbContainer .login {
+  display: flex;
+  justify-content: center;
+}
+
+.tbContainer .login .socialIcon ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.tbContainer .login .socialIcon ul li {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  padding-left: 8px;
+}
+
+.tbContainer .login .socialIcon ul li .fab {
+  background-color: #8b8b8b;
+  display: flex;
+  width: 28px;
+  height: 28px;
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.tbContainer .login .socialIcon ul li .fab:hover {
+  background-color: #207bc1;
+}
+
+.tbContainer .login .loginIcon {
+  margin-left: 24px;
+  margin-top: 0px;
+  color: #000052;
+}
+
+.tbContainer .login img {
+  margin-right: 5px;
+  vertical-align: middle;
+}

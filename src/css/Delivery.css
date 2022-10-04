@@ -1,0 +1,19 @@
+.deliverySection {
+  background-color: #f4f6fa;
+  border-radius: 6px;
+  padding: 14px 10px 14px 30px;
+  display: flex;
+  align-items: center;
+  width: 300px;
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+
+.dTextContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 20px;
+  line-height: 1em;
+}

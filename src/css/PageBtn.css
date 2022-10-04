@@ -1,0 +1,19 @@
+.pageBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+  border: 1px #207bc1 solid;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #207bc1;
+  background-color: white;
+  cursor: pointer;
+}
+.pageBtn:hover {
+  background-color: #207bc1;
+  color: white;
+  transition: 0.1s ease-in-out;
+}

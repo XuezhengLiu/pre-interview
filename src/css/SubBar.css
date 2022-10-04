@@ -1,0 +1,22 @@
+.subBar {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #f3f4f7;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.subBar .promotContainer {
+  display: flex;
+}
+.subBar .searchContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.subBar .cartContainer {
+  display: flex;
+  justify-content: center;
+}

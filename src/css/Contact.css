@@ -1,0 +1,31 @@
+.contactSection {
+  display: flex;
+  padding-left: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+}
+
+.contactSection .cIconContainer {
+  display: flex;
+  align-items: center;
+}
+
+.contactSection .cTextContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  margin-left: 5px;
+}
+
+.contactSection .cTextContainer .number {
+  font-size: 14px;
+  font-weight: 700;
+  color: red;
+}
+
+.contactSection .cTextContainer .promot {
+  display: block;
+  line-height: 1.2em;
+}

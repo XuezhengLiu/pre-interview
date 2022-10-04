@@ -1,0 +1,47 @@
+.brandBtn {
+  display: flex;
+  height: 30px;
+  width: 90%;
+  padding-left: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  justify-content: left;
+  align-items: center;
+
+  font-family: 'Lato', sans-serif;
+  border-radius: none;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.brandBtn i {
+  font-size: 4px;
+  margin-right: 3px;
+}
+
+.brandBtn:hover {
+  background-color: #207bc1;
+  color: white;
+}
+
+.brandBtn .categories {
+  font-weight: 600;
+  font-size: 16px;
+  color: #207bc1;
+}
+
+.brandBtn .brands {
+  font-weight: 600;
+  font-size: 16px;
+  color: black;
+}
+
+.brandBtn .products {
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+}
+
+.brandBtn p:hover {
+  color: #fff;
+}

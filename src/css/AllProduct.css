@@ -1,0 +1,36 @@
+.apContainer {
+  z-index: 99;
+}
+.apContainer:hover .allBrand {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding: 5px;
+  position: absolute;
+}
+
+.apContainer a {
+  width: 175px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  background: #207bc1;
+  border-radius: 6px;
+  padding: 10px 15px 10px 15px;
+  color: #fff;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.apContainer .allBrand {
+  display: none;
+  width: 1400px;
+  height: 500px;
+  background-color: #ffffff;
+  border-top: 2px #eaf8f9 solid;
+  border-left: 1px #eaeaea solid;
+  border-right: 2px #eaeaea solid;
+  border-bottom: 1px #eaeaea solid;
+  border-radius: 5px;
+  box-shadow: 0 5px 3px #cccccc;
+}

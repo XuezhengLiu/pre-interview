@@ -1,0 +1,25 @@
+.promotSection {
+  display: flex;
+  padding-left: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+}
+
+.promotSection .iconContainer {
+  display: flex;
+  align-items: center;
+}
+
+.promotSection .textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  margin-left: 5px;
+}
+
+.promotSection .textContainer span {
+  display: block;
+  line-height: 1.2em;
+}
